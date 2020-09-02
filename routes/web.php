@@ -18,3 +18,10 @@ Route::get('/', function () {
 });
 
 Route:: resource("testing",'TestController');
+
+//testing
+Route::get('contact', 'pagesController@contact');
+Route::get('contacts','contact2Controller@contacts');
+//Route::get('index','IndexController@index');
+Route::get('blogs','BlogsController@index');
+Route::get('blogs/{id}','BlogsController@show');

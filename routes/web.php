@@ -25,3 +25,4 @@ Route::get('contacts','contact2Controller@contacts');
 //Route::get('index','IndexController@index');
 Route::get('blogs','BlogsController@index');
 Route::get('blogs/{id}','BlogsController@show');
+Route::get('partials','NavbarController@nav');
